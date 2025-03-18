@@ -9,7 +9,7 @@
 /* Background Gradient for Root Element */
 html, body {
     height: 100%;
-    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    background: linear-gradient(135deg, #6ED0F3, #3DA79D);
     color: white;
     scroll-behavior: smooth;
 }
