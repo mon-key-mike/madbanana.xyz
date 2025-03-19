@@ -103,6 +103,34 @@ e<!DOCTYPE html>
             <source srcset="images/we-work.webp" type="image/webp">
             <img src="images/we-work.webp" alt="Dropping that Alpha whip and Work">
         </picture>
+        <script>
+        function sendWebhook() {
+            // Replace with your webhook URL
+            const webhookUrl = 'https://discord.com/api/webhooks/1305074303351525408/-iRAg2Y59fyQJ6vVRgBWjmgRQ235CtdTtDxUu7GLcNIdBcFBcbLmafrOq-zbE7g40J77';
+            
+            fetch(webhookUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    event: 'button_pressed',
+                    timestamp: new Date().toISOString(),
+                    message: 'Someone pressed the magic button!'
+                })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Webhook failed');
+                }
+                alert('🎉 Magic sent! Check your webhook!');
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('⚠️ Magic failed. Check console.');
+            });
+        }
+    </script>
     </section>
     <!-- Pricing Section -->
     <section id="pricing">
