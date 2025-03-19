@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+      <channel>
+        <atom:link href="https://feeds.soundcloud.com/users/soundcloud:users:1151510329/sounds.rss" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://feeds.soundcloud.com/users/soundcloud:users:1151510329/sounds.rss?before=2058230924" rel="next" type="application/rss+xml"/>
+        <title>Mad Banana Radio</title>
+        <link>https://www.madbanana.xyz</link>
+        <pubDate>Wed, 19 Mar 2025 19:46:19 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Mar 2025 19:46:19 +0000</lastBuildDate>
+        <ttl>60</ttl>
+        <language>en</language>
+        <copyright>All rights reserved</copyright>
+        <webMaster>feeds@soundcloud.com (SoundCloud Feeds)</webMaster>
+        <description>Podcast by Mad Banana Radio</description>
+        <itunes:subtitle>Podcast by Mad Banana Radio</itunes:subtitle>
+        <itunes:owner>
+          <itunes:name>Mad Banana Radio</itunes:name>
+          <itunes:email>feeds@soundcloud.com</itunes:email>
+        </itunes:owner>
+        <itunes:author>Mad Banana Radio</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="https://i1.sndcdn.com/avatars-abGSm3x6WlqGYqdQ-wcmE7Q-original.jpg"/>
+        <image>
+          <url>https://i1.sndcdn.com/avatars-abGSm3x6WlqGYqdQ-wcmE7Q-original.jpg</url>
+          <title>Mad Banana Radio</title>
+          <link>https://www.madbanana.xyz</link>
+        </image>
+        
+        <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/2058230924</guid>
+      <title>Peepin'Apes | Mad'Bananas</title>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <link>https://soundcloud.com/madbanana-radio/peely-peepin-apes</link>
+      <itunes:duration>00:02:08</itunes:duration>
+      <itunes:author>Mad Banana Radio</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Peepin'Apes | Mad'Bananas by Mad Banana Radio</itunes:summary>
+      <itunes:subtitle>Peepin'Apes | Mad'Bananas by Mad Banana Radio</itunes:subtitle>
+      <description>Peepin'Apes | Mad'Bananas by Mad Banana Radio</description>
+      <enclosure type="audio/mpeg" url="https://feeds.soundcloud.com/stream/2058230924-madbanana-radio-peely-peepin-apes.mp3" length="2050924"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-RSmzghXzmFMmsYyH-a8KB5g-t3000x3000.png"/>
+    </item>
+      </channel>
+    </rss>
