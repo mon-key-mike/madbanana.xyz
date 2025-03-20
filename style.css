@@ -192,31 +192,41 @@ form button {
 form button:hover {
     background: #333;
 }
-/* General styling for the section */
+/* Section Container */
 #radio-social {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    justify-content: center;
     padding: 40px 20px;
 }
 
-/* Content container */
+/* Flexbox Layout for Side-by-Side */
 .content-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
-    align-items: center;
-    max-width: 600px;
+    max-width: 800px; /* Limits width for better structure */
+    width: 100%;
 }
 
-/* Radio Player */
-.radio-player iframe {
-    max-width: 100%;
+/* Adjust width for both elements */
+.radio-player, .instagram-embed {
+    flex: 1; /* Each takes up equal space */
+    max-width: 48%;
 }
 
-/* Instagram Embed */
-.instagram-embed blockquote {
-    max-width: 100%;
+/* Ensure iframe and blockquote scale properly */
+.radio-player iframe, .instagram-embed blockquote {
+    width: 100%;
 }
 
+/* Mobile Responsive: Stack elements on smaller screens */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .radio-player, .instagram-embed {
+        max-width: 100%;
+    }
+}
