@@ -1,178 +1,43 @@
-/* ✅ General Reset */
-* {
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-/* ✅ Sticky Navigation Bar */
-.navbar {
-    background: #111;
-    padding: 15px;
     text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-color: #111;
+    color: white;
 }
 
-#home::before { background-image: url('images/hero-banner.webp'); }
-#about::before { background-image: url('images/about-banner.webp'); }
-#gallery::before { background-image: url('images/gallery-banner.webp'); }
-#buy::before { background-image: url('images/buy-banner.webp'); }
-#faq::before { background-image: url('images/faq-banner.webp'); }
-#social::before { background-image: url('images/contact-banner.webp'); }
-
+/* Navigation */
+.navbar {
+    background: #000;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
 .navbar ul {
     list-style: none;
+    padding: 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
 }
-
 .navbar ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    padding: 10px;
-    transition: 0.3s;
 }
 
-.navbar ul li a:hover {
-    background: #444;
-    border-radius: 5px;
-}
-
-/* ✅ Hero Section */
-#home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100vh;
-    background: url('images/hero-banner.webp') no-repeat center center/cover;
-    position: relative;
-    color: white;
-    padding: 0 20px;
-}
-
-/* Dark overlay */
-#home::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-.home-content {
-    position: relative;
-    z-index: 2;
-    max-width: 700px;
-}
-
-.home-content h1 {
-    font-size: 3.5em;
-    font-weight: bold;
-}
-
-.home-content p {
-    font-size: 1.5em;
-}
-
-.btn {
-    display: inline-block;
-    background: #ffcc00;
-    color: black;
-    padding: 12px 24px;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.3s ease-in-out;
-}
-
-.btn:hover {
-    background: #ffaa00;
-    transform: scale(1.05);
-}
-
-/* ✅ Layout Fixes */
+/* Sections */
 section {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 50px 20px;
-    position: relative;
-}
-#buy {
-    display: flex;
-    justify-content: center;
-    padding: 40px 20px;
-}
-#faq {
-    display: flex;
-    justify-content: center;
-    padding: 40px 20px;
-}
-/* ✅ Radio & Twitter Section */
-#social {
-    display: flex;
-    justify-content: center;
-    padding: 40px 20px;
-}
-#gallery { 
-    display: flex;
-    gap: 20px;
-    max-width: 800px;
-    width: 100%; 
-}
-.content-container {
-    display: flex;
-    gap: 20px;
-    max-width: 800px;
-    width: 100%;
+    padding: 80px 20px;
 }
 
-.radio-player, .twitter-embed {
-    flex: 1;
-    max-width: 48%;
-}
-
-/* Mobile Responsive */
-@media (max-width: 768px) {
-    .content-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .radio-player, .twitter-embed {
-        max-width: 100%;
-    }
-
-    #hero {
-        height: 80vh;
-    }
-
-    .hero-content h1 {
-        font-size: 2.5em;
-    }
-
-    .hero-content p {
-        font-size: 1.2em;
-    }
-
-    .btn {
-        font-size: 1em;
-        padding: 10px 20px;
-    }
+/* Footer */
+footer {
+    background: #222;
+    padding: 20px;
+    margin-top: 40px;
 }
