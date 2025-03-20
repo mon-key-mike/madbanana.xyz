@@ -17,6 +17,14 @@
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
+/*
+#home::before { background-image: url('images/hero-banner.webp'); }
+#about::before { background-image: url('images/about-banner.webp'); }
+#gallery::before { background-image: url('images/gallery-banner.webp'); }
+#buy::before { background-image: url('images/buy-banner.webp'); }
+#faq::before { background-image: url('images/faq-banner.webp'); }
+#social::before { background-image: url('images/contact-banner.webp'); }
+*/
 
 .navbar ul {
     list-style: none;
@@ -39,20 +47,20 @@
 }
 
 /* ✅ Hero Section */
-#hero {
+#home {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
-    background: url('images/home-banner.webp') no-repeat center center/cover;
+    background: url('images/hero-banner.webp') no-repeat center center/cover;
     position: relative;
     color: white;
     padding: 0 20px;
 }
 
 /* Dark overlay */
-#hero::before {
+#home::before {
     content: "";
     position: absolute;
     top: 0;
@@ -63,18 +71,18 @@
     z-index: 1;
 }
 
-.hero-content {
+.home-content {
     position: relative;
     z-index: 2;
     max-width: 700px;
 }
 
-.hero-content h1 {
+.home-content h1 {
     font-size: 3.5em;
     font-weight: bold;
 }
 
-.hero-content p {
+.home-content p {
     font-size: 1.5em;
 }
 
@@ -107,17 +115,30 @@ section {
     padding: 50px 20px;
     position: relative;
 }
-
-/* ✅ Radio & Twitter Section */
-#radio-social {
+#buy {
     display: flex;
     justify-content: center;
     padding: 40px 20px;
 }
-
+#faq {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+/* ✅ Radio & Twitter Section */
+#social {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+#gallery { 
+    display: flex;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%; 
+}
 .content-container {
     display: flex;
-    justify-content: space-between;
     gap: 20px;
     max-width: 800px;
     width: 100%;
