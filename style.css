@@ -90,13 +90,13 @@ section::before {
     background: rgba(0, 0, 0, 0.7);
 }
 /* Specific Section Backgrounds */
-#home::before { background-image: url('images/home-banner.webp'); }
-#about::before { background-image: url('images/about-banner.webp'); }
-#gallery::before { background-image: url('images/gallery-banner.webp'); }
-#pricing::before { background-image: url('images/pricing-banner.webp'); }
-#team::before { background-image: url('images/team-banner.webp'); }
-#faq::before { background-image: url('images/faq-banner.webp'); }
-#contact::before { background-image: url('images/contact-banner.webp'); }
+#home::before { background-image: url('./images/home-banner.webp'); }
+#about::before { background-image: url('./images/about-banner.webp'); }
+#gallery::before { background-image: url('./images/gallery-banner.webp'); }
+#pricing::before { background-image: url('./images/pricing-banner.webp'); }
+#team::before { background-image: url('./images/team-banner.webp'); }
+#faq::before { background-image: url('./images/faq-banner.webp'); }
+#contact::before { background-image: url('./images/contact-banner.webp'); }
 /* Gallery */
 .gallery {
     display: grid;
