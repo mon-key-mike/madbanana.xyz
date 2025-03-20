@@ -192,3 +192,31 @@ form button {
 form button:hover {
     background: #333;
 }
+/* General styling for the section */
+#radio-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Content container */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    max-width: 600px;
+}
+
+/* Radio Player */
+.radio-player iframe {
+    max-width: 100%;
+}
+
+/* Instagram Embed */
+.instagram-embed blockquote {
+    max-width: 100%;
+}
+
