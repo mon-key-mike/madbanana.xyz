@@ -1,0 +1,187 @@
+e<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Essential Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!-- Primary Meta Tags -->
+    <title>Mad Banana Union | MadLands | Madness | Ethereum </title>
+    <script defer src="/_vercel/insights/script.js"></script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+    <meta name="description" content="Alpha Studio is your go-to creative powerhouse for Web3 branding, NFT design, motion graphics, video editing, and digital content. Elevate your brand today!">
+    <meta name="keywords" content="Web3 design, NFT branding, Alpha Studio, digital content, motion graphics, video editing, Web3 marketing, logo design, UI/UX, Web3 creative agency, blockchain visuals">
+    <meta name="author" content="Mad Money Labs">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph Meta Tags (Facebook, LinkedIn) -->
+    <meta property="og:title" content="wackiest metaverse experience ever created—a chaotic realm where bananas run the economy, logic melts like overripe fruit, and madness is the only rule.">
+    <meta property="og:description" content="Deep in the heart of the Mad Lands, 6,969 bananas are plotting global domination. Led by a cast of legendary banana misfits—like Kyle, Ben, Liam the Crown, and AlbertNanaEinstein—this isn’t just another NFT project; it’s an empire in the making. The Banana Zones, the Bazooka Wars, and the Metaverse Takeover—you’re either in, or you’re left in the peels.">
+    <meta property="og:image" content="Enter the $MAD Money Lab – Experiment, stake, and unleash the power of banana-based economics.">
+    <meta property="og:url" content="The madness is only getting started. Metaverse expansions, game integrations, real-world merch, and even more bananas are on the way. Stay tuned, stay MAD, and get ready for the most unpredictable crypto-fueled banana saga ever created.">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card (for Twitter sharing) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mad Banana Union. Mad Money Lab. Mad Lands.">
+    <meta name="twitter:description" content="From NFT branding to motion graphics, Alpha Studio helps Web3 projects stand out with stunning visuals and premium creative services.">
+    <meta name="twitter:image" content="https://x.com/MadBananaUnion">
+    <meta name="twitter:site" content="@MadBananaUnion">
+    <!-- Canonical Tag (Prevents Duplicate Content Issues) -->
+    <link rel="canonical" href="https://madbanana.xyz">
+    <!-- Favicon -->
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Schema Markup (SEO Boost with Rich Results) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Mad Banana Union | Build in the MadLands. ",
+        "url": "https://madbanana.xyz",
+        "logo": "https://madbanana.xyz/images/logo.svg",
+        "description": "The madness is only getting started. Metaverse expansions, game integrations, real-world merch, and even more bananas are on the way. Stay tuned, stay MAD, and get ready for the most unpredictable crypto-fueled banana saga ever created.",
+        "contactPoint": {
+            "@type": "Big Daddy Banana",
+            "email": "madbananabrands@gmail.com",
+            "contactType": "customer service",
+            "availableLanguage": ["English"]
+        },
+        "sameAs": [
+            "https://twitter.com/MadBananaUnion",
+            "https://discord.gg/mad-banana-union"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about"> Mad Banana Union</a></li>
+                <li><a href="#faucet">Money Faucet</a></li>
+                <li><a href="#madmoney">$MAD</a></li>
+                <li><a href="#dao">Bananas DAO </a></li>
+                <li><a href="#faq"> FAQ </a></li>
+                <li><a href="#social"> Social </a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Hero Section -->
+    <section id="hero">
+    <div class="hero-content">
+            <h1>🚀 Enter the Madness</h1>
+            <p>Join the most unpredictable crypto-fueled banana saga ever created.</p>
+            <a href="#join" class="btn">Join the Madness</a>
+        </div>
+    </section>
+<!-- About Section -->
+    <section id="about">
+        <h1>The Mad Banana Union. </h1>
+        <p> Web3's First CTO. Established August 2021 </p>
+        <h2>Core Values</h2>
+        <picture>
+            <source srcset="images/lionesse.webp" type="image/webp">
+            <img src="images/placeholder.jpg" alt="Lionesse Pride in a digital graphic scape">
+        </picture>
+    </section>
+    <!-- Gallery Section -->
+    <section id="faucet">
+        <h1>🚀 Our Work Speaks for Itself</h1>
+            <p>Seeing is believing. Browse through our collection of high-impact projects and success stories.</p>
+        <picture>
+            <source srcset="images/we-work.webp" type="image/webp">
+            <img src="images/we-work.webp" alt="Dropping that Alpha whip and Work">
+        </picture>
+        <script>
+        function sendWebhook() {
+            const webhookUrl = 'https://discord.com/api/webhooks/1305074303351525408/-iRAg2Y59fyQJ6vVRgBWjmgRQ235CtdTtDxUu7GLcNIdBcFBcbLmafrOq-zbE7g40J77';
+            fetch(webhookUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    event: 'button_pressed',
+                    timestamp: new Date().toISOString(),
+                    message: 'Someone pressed the magic button!'
+                })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Webhook failed');
+                }
+                alert('🎉 Magic sent! Check your webhook!');
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('⚠️ Magic failed. Check console.');
+            });
+        }
+        function logEvent(eventType) {
+            fetch('log.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ event: eventType })
+            });
+        }
+        document.addEventListener("DOMContentLoaded", () => logEvent("Page Loaded"));
+        </script>
+    </section>
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <source srcset="images/.webp" type="image/webp">
+        <img src="images/.webp" alt="Competive Marketing Graphics Adcertisement Design and Development Services">
+    </picture>
+    </section>
+    <!-- Team Section -->
+    <section id="dao">
+            <p>Our team is made up of passionate experts, industry leaders, and creative thinkers, all dedicated to pushing boundaries and delivering top-notch solutions.</p>
+        <div class="team-card"><h2>b</h2></div>
+        <div class="team-card"><h2>b</h2></div>
+        <div class="team-card"><h2>b</h2></div>
+        <div class="team-card"><h2>b</h2></div>
+    </section>
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h1>Frequently Asked Questions</h1>
+        <h2>🔹 What is $MAD?</h2>
+        <h2>🔹 What is a MadBanana?</h2>
+        <picture>
+            <source srcset="images/.webp" type="image/webp">
+            <img src="images/.webp" alt="Building a Brand that lifts up other Brands">
+        </picture>
+    </section>
+    <!-- Contact Section -->
+    <section id="social">
+        <div section="social">
+            <picture>
+                <source srcset="images/tiger-wolf.webp" type="image/webp">
+                <img src="images/.webp" alt="">
+            </picture>
+        </div>
+    </section>
+    <header>
+        <h1>🍌 Welcome to <span class="highlight">MadBanana.xyz</span> – The Ultimate Metaverse of Madness! 🍌</h1>
+    </header>
+    <div class="container">
+        <p>Where Chaos, Crypto, and Bananas Collide!</p>
+        <a href="#join" class="btn">Join the Madness</a>
+    </div>
+    <section class="section">
+        <h2>🔥 What is Mad Banana?</h2>
+        <p>The <span class="highlight">Mad Banana Union</span> is a Web3-powered **metaverse revolution** where <strong>6,969 bananas</strong> rule the digital world! 🚀</p>
+        <p>Own an exclusive <span class="highlight">Mad Banana NFT</span>, earn $MAD tokens, and explore the wildest **play-to-earn ecosystem** in the Metaverse.</p>
+    </section>
+    <section class="section">
+        <h2>🧪 Inside the $MAD Money Lab</h2>
+        <p>The top-secret **$MAD Money Lab** is where **cryptocurrency mutates, tokenomics experiments thrive, and financial anarchy reigns supreme**.</p>
+        <p>Stake NFTs, trade **Melting Banana Tokens**, and harness the power of **Banana Buckets** to fuel your journey in the Mad Lands! 🍌💰</p>
+    </section>
+    <section class="section" id="join">
+        <h2>🚀 Join the Madness</h2>
+        <p>Mint your **Mad Banana NFT**, enter the **Mad Lands**, and shape the future of our banana-driven Metaverse!</p>
+        <a href="https://opensea.io/collection/mad-banana" class="btn">Mint Your NFT</a>
+        <a href="https://discord.gg/madbanana" class="btn">Join Our Discord</a>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mad Banana Union Established 2021 ALL RIGHTS RESERVED! | <a href="https://twitter.com/MadBananaUnion">Twitter</a> | <a href="https://madbanana.xyz">Website</a> | <a href="https://discord.gg/madbanana">Discord</a></p>
+    </footer>
+  </body>
+</html>
