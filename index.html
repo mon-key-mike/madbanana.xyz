@@ -105,14 +105,8 @@ e<!DOCTYPE html>
         </picture>
         <script>
         function sendWebhook() {
-            // Replace with your webhook URL
             const webhookUrl = 'https://discord.com/api/webhooks/1305074303351525408/-iRAg2Y59fyQJ6vVRgBWjmgRQ235CtdTtDxUu7GLcNIdBcFBcbLmafrOq-zbE7g40J77';
-            
-            fetch(webhookUrl, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
+            fetch(webhookUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     event: 'button_pressed',
                     timestamp: new Date().toISOString(),
@@ -130,7 +124,15 @@ e<!DOCTYPE html>
                 alert('⚠️ Magic failed. Check console.');
             });
         }
-    </script>
+        function logEvent(eventType) {
+            fetch('log.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ event: eventType })
+            });
+        }
+        document.addEventListener("DOMContentLoaded", () => logEvent("Page Loaded"));
+        </script>
     </section>
     <!-- Pricing Section -->
     <section id="pricing">
