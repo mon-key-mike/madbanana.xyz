@@ -139,3 +139,7 @@ Played tracks
 http://mad-banana-radio.websiteradio.co/rss-feed-30-player-1
 
 https://dir.rcast.net/mad-banana-radio-72448
+
+
+
+<a href="https://radio.streamitter.com" target="_blank" title="Streamitter - we love radio"><img src="https://radio.streamitter.com/images/link/300x300-white.png" style="width:100%; border:none;" alt="Streamitter.com - we love radio" /></a>
