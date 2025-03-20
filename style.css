@@ -17,14 +17,13 @@
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
-/*
+
 #home::before { background-image: url('images/hero-banner.webp'); }
 #about::before { background-image: url('images/about-banner.webp'); }
 #gallery::before { background-image: url('images/gallery-banner.webp'); }
 #buy::before { background-image: url('images/buy-banner.webp'); }
 #faq::before { background-image: url('images/faq-banner.webp'); }
 #social::before { background-image: url('images/contact-banner.webp'); }
-*/
 
 .navbar ul {
     list-style: none;
