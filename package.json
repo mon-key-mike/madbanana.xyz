@@ -1,6 +1,13 @@
 {
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
-    "@vercel/speed-insights": "^1.2.0"
+    "@vercel/speed-insights": "^1.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "viem": "^2.16.3",
+    "wagmi": "^2.10.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2"
   }
 }
