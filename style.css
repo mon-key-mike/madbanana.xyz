@@ -72,6 +72,10 @@ section::before {
 #about { background-image: url('images/about-banner.webp'); }
 #mad { background-image: url('images/mad-banner.webp'); }
 #dao { background-image: url('images/dao-banner.webp'); }
+#faucet { background-image: url('images/faucet-banner.webp'); }
+#radio { background-image: url('images/radio-banner.webp'); }
+#lounge { background-image: url('images/lounge-banner.webp'); }
+#social { background-image: url('images/social-banner.webp'); }
 #faq { background-image: url('images/faq-banner.webp'); }
 #contact { background-image: url('images/contact-banner.webp'); }
 
