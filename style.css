@@ -82,10 +82,79 @@ section::before {
 #faq { background-image: url('images/faq-banner.webp'); }
 #contact { background-image: url('images/contact-banner.webp'); }
 
+#about {
+    /* Add specific styles if needed */
+}
+#mad {
+    /* Add specific styles if needed */
+}
+#dao {
+    /* Add specific styles if needed */
+}
+#faucet {
+    /* Add specific styles if needed */
+}
+#radio {
+    /* Styles for the radio section */
+}
+#radio iframe {
+    border: 1px solid #ccc; /* Add a border to the iframe */
+    border-radius: 4px;
+}
+#lounge {
+    /* Styles for the lounge section */
+}
+#lounge a {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #4d3300;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#lounge a:hover {
+    background-color: #e6b800;
+    text-decoration: none;
+}
+#social {
+    /* Add specific styles if needed */
+}
+#events {
+    /* Add specific styles if needed */
+}
+#mutants {
+    /* Add specific styles if needed */
+}
+/* FAQ Section Styling */
+#faq dl {
+    margin-top: 15px;
+}
+
+#faq dt {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #555;
+}
+
+#faq dd {
+    margin-left: 20px; /* Indent answers */
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact p {
+    margin-bottom: 5px; /* Less space between contact lines */
+}
+#contact a {
+    /* Link color already set globally */
+}
+
 /* Footer */
 footer {
-    background: #222;
-    padding: 20px;
+    background: #333; /* Dark footer */
+    color: #fff; /* White text */
     text-align: center;
-    margin-top: 40px;
+    padding: 20px 0;
+    margin-top: 30px;
 }

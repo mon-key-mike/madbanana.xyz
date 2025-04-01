@@ -1,9 +1,14 @@
 {
+  "type": "module",
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
+    "gray-matter": "^4.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "thirdweb": "^5.93.9",
     "viem": "^2.16.3",
     "wagmi": "^2.10.9"
   },
