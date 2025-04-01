@@ -5,9 +5,18 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "viem": "^2.16.3",
-    "wagmi": "^2.10.9"
+    "wagmi": "^2.10.9",
+    "next": "^14.0.4",
+    "next-auth": "^4.23.2",
+    "ethers": "^6.7.3"
   },
   "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.4",
+    "prettier": "^3.3.2",
     "typescript": "^5.5.2"
   }
 }
