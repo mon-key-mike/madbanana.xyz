@@ -76,6 +76,8 @@ section::before {
 #radio { background-image: url('images/radio-banner.webp'); }
 #lounge { background-image: url('images/lounge-banner.webp'); }
 #social { background-image: url('images/social-banner.webp'); }
+#events { background-image: url('images/events-banner.webp'); }
+#mutants { background-image: url('images/mutants-banner.webp'); }
 #faq { background-image: url('images/faq-banner.webp'); }
 #contact { background-image: url('images/contact-banner.webp'); }
 
