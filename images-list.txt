@@ -1,0 +1,12 @@
+Home	home-banner.webp
+About	about-banner.webp
+Mad Money	mad-banner.webp
+DAO	dao-banner.webp
+Faucet	faucet-banner.webp
+Radio	radio-banner.webp
+Lounge	lounge-banner.webp
+Social	social-banner.webp
+Events	events-banner.webp
+Mutants	mutants-banner.webp
+FAQ	faq-banner.webp
+Contact	contact-banner.webp
