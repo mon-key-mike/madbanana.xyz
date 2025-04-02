@@ -8,4 +8,4 @@ const resp = await fetch(
 );
 
 const { result } = await resp.json();
-console.log("ERC-20 balance:", result);
+print(console.log("ERC-20 balance:", result));
